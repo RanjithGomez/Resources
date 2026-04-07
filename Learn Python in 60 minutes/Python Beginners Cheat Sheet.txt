@@ -1,0 +1,70 @@
+PYTHON CHEAT SHEET (Absolute Beginner Friendly)
+
+1. Introduction to Python
+
+What is Python?
+- Python is a simple, powerful programming language.
+- It is beginner-friendly and widely used across industries.
+
+To quote Python.org
+"Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. It supports multiple programming paradigms beyond object-oriented programming, such as procedural and functional programming. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants including Linux and macOS, and on Windows."
+
+Where is Python used?
+- Data Analysis (e.g., analyzing sales, trends)
+- Automation (e.g., sending emails, file handling)
+- Business Applications (e.g., dashboards, reporting)
+- Web Development & AI
+
+2. Understanding Python Basics
+
+Variables:
+Think of variables as containers to store data.
+Example:
+
+name = 'John'
+age = 25
+
+Data Types:
+
+- int    -> 10
+- float  -> 10.5
+- str    -> 'Hello'
+- bool   -> True / False
+
+Simple Operations:
+
+a = 10
+b = 5
+print(a + b)  # Addition
+print(a - b)  # Subtraction
+print(a * b)  # Multiplication
+print(a / b)  # Division
+
+
+
+3. Working with Logic & Data
+
+Conditional Statements (if-else):
+
+age = 18
+if age >= 18:
+    print('Adult')
+else:
+    print('Minor')
+
+Loops:
+
+for i in range(5):
+    print(i)
+
+Lists (store multiple values):
+
+fruits = ['apple', 'banana', 'mango']
+print(fruits[0])  # Access first item
+
+Dictionaries (key-value pairs):
+
+student = {'name': 'John', 'age': 20}
+print(student['name'])
+
+
